@@ -35,6 +35,8 @@ namespace CalcMedia
                     soma += valor;
                 }
 
+                media = soma / 4;
+                this.Controls["label7"].Text = media.ToString();
             }
         }
     }

@@ -17,11 +17,6 @@ namespace CalcMedia
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e) // Calcular
         {
             float soma, media, valor;
@@ -37,6 +32,17 @@ namespace CalcMedia
 
                 media = soma / 4;
                 this.Controls["label7"].Text = media.ToString();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e) // Limpar
+        {
+            foreach (Control controle in this.Controls)
+            {
+                if (controle is TextBox)
+                {
+                    
+                }
             }
         }
     }

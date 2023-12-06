@@ -21,5 +21,21 @@ namespace CalcMedia
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e) // Calcular
+        {
+            float soma, media, valor;
+            soma = 0;
+
+            foreach (Control controle in this.Controls)
+            {
+                if(controle is TextBox) 
+                {
+                    valor = Convert.ToSingle(((TextBox)controle).Text);
+                    soma += valor;
+                }
+
+            }
+        }
     }
 }

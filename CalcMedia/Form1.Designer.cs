@@ -119,18 +119,19 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(271, 95);
+            this.button1.Location = new System.Drawing.Point(271, 91);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 23);
+            this.button1.Size = new System.Drawing.Size(112, 32);
             this.button1.TabIndex = 9;
             this.button1.Text = "CALCULAR";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(271, 225);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 23);
+            this.button2.Size = new System.Drawing.Size(112, 32);
             this.button2.TabIndex = 10;
             this.button2.Text = "LIMPAR";
             this.button2.UseVisualStyleBackColor = true;

@@ -46,7 +46,7 @@ namespace CalcMedia
             {
                 if (controle is TextBox)
                 {
-                    
+                    ((TextBox)controle).Text = "";
                 }
             }
         }

@@ -48,6 +48,8 @@ namespace CalcMedia
                 {
                     ((TextBox)controle).Text = "";
                 }
+
+                this.Controls["label7"].Text = "...";
             }
         }
     }
